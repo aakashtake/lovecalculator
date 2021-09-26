@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>The Friendship Calculator</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-light" style="background-color: #FF5C58;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/128/2830/2830842.png" alt="" width="40" height="35" class="d-inline-block align-text-top">
+            The Friendship Calculator.
+          </a>
+        </div>
+      </nav>
+    <!--Introduction-->
+    <div id="introduction">
+        <h3>Welcome!</h3>
+        <div id="textbox">
+            <p class="lead"> Friendship Calculator is a simple Friendship Test to see how compatible you are with your friends. Determine who is your friend and who is not. This friendship calculator is an online test of friendship and friends.</p>
+            <p class="lead">The Friendship calculator given below is a friend test to find the percentage of successful friendship between to people. The result of this friendship test is based on your name and your date of birth. The percentage of friendship is calculated based on astrology.</p>    
+        </div> 
+    </div>
+    
+    <!-- Form-->
+    <div id="formbox">
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your bestfriend's name" aria-label="Last name">
+            </div>
+          </div>
+          <div class="col-md-12 text-center" id="submit">
+            <button id="calculate" type="button" class="btn btn-danger">Calculate</button>
+          </div>
+    </div>
+    <div id="resultbox">
+        <h1><p class="lead text-center" id="result"></p></h1>
+    </div>
+
+
+
+    <script src="love.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
