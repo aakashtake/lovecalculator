@@ -1,0 +1,31 @@
+body {
+    background-color: #FFEDD3;
+  }
+
+#formbox{
+    margin-top: 45px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+#introduction{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#submit{
+    margin-top: 50px;
+}
+
+#resultbox{
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#result{
+    font-size: larger;
+}
+
+
